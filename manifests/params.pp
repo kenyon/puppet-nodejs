@@ -1,4 +1,5 @@
 class nodejs::params {
+  $manage_nodejs_package       = true
   $npmrc_auth                  = undef
   $npmrc_config                = undef
   $nodejs_debug_package_ensure = 'absent'
